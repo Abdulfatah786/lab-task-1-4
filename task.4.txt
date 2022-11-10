@@ -1,0 +1,20 @@
+import java.util.*;
+
+class cpn
+{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+
+        System.out.print("Enter matricculation marks ");
+         double Matric=sc.nextDouble();
+
+        System.out.print("Enter intermediate marks ");
+        double inter=sc.nextDouble();
+
+        System.out.print("Enter test score ");
+        double Test=sc.nextDouble();
+
+        double Cpn=(Matric/850)*10+(inter/1100)*30+(Test/100)*60;
+        System.out.println("cpn is"+(Cpn));
+    }
+}

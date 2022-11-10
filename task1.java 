@@ -1,0 +1,29 @@
+public class Main {
+	public static void main(String[] args) {
+
+	int myAge;
+	int number;
+	int numberOfABooks;
+	double valueOfBooks;
+	double myFirstDouble;
+	double mySecondDouble;
+	
+	myAge = 22;
+	number = 2;
+	numberOfABooks = 56;
+	valueOfBooks = 3.6;
+	myFirstDouble = 89.8;
+	mySecondDouble = 90;
+	
+	System.out.println( "myAge" + myAge);
+	System.out.println( "number" + number);
+	System.out.println( "numberOfABooks" + numberOfABooks);
+	System.out.println( "valueOfBooks" + valueOfBooks);
+	System.out.println( "myFirstDoubleb" + myFirstDouble);
+	System.out.println( "mySecondDouble"  + mySecondDouble);
+	
+	
+	
+	
+	}
+}
